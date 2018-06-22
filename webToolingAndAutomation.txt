@@ -1,0 +1,49 @@
+/sublimet text 3
+/extendind sublime text
+	/install package control manually
+		/install packages
+			/Emmet
+			/Sidebar Enhancement
+			/Color Picker
+			/Color Highlighter
+/build tools
+	/gulp
+		/nodejs
+		/npm
+		/streams in gulp /*read*/
+	/sass	/*superset of css*/
+		npm install gulp-sass --save-dev
+		/npm install --save-dev gulp-autoprefixer /*autoprefix*/
+	/live editing
+		/chrome workspaces
+		/takana
+		/browser sync
+			/npm install -g browser-sync
+/alarms and safety
+	/unit tests
+		/Linting
+			/JSHint
+			/JSCS
+			/ESLint
+				/sudo npm install -g eslint
+					/eslint --init
+				/npm install gulp-eslint
+				/eslint precommit hook /*google it*/
+			/Sublime-Linter /*check google if required for php*/
+	/jasmine
+	/phantomjs
+		/npm install gulp-jasmine-phantom
+/minifing and concatinating source files and optimization of images
+	/*gluing css and js files together through concatination  the crunch them with mini file*/
+	/concatination
+		/npm install gulp-concat
+	/minification
+		/gzip /*read*/
+	/babel
+	/Images optimisation
+/scaffolding
+	/html5boilerplate	/*no gulp*/
+	/web-starter-kit
+	/yeoman
+		yo webapp
+
