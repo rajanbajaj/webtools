@@ -1,0 +1,29 @@
+{
+  "name": "anime",
+  "version": "1.0.0",
+  "description": "Review website",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/rajanbajaj/anime"
+  },
+  "keywords": [
+    "anime"
+  ],
+  "author": "Rajan Bajaj",
+  "license": "ISC"
+}
