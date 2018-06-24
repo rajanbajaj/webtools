@@ -1,1 +1,40 @@
-.hello{color:purple;width:22%;height:30%}
+.h1, .h2, .h3, .h4, .h5, .h6, body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif !important; }
+
+b {
+  font-size: 70px; }
+
+body {
+  overflow-x: hidden; }
+
+.left-banner {
+  width: 25%; }
+
+header.landing-page-header {
+  padding: 235px 0;
+  opacity: .7;
+  color: #fff;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  text-align: center; }
+
+body, html {
+  height: 100%;
+  margin: 0; }
+
+.bg {
+  height: 100%;
+  background: 0 0; }
+
+.custom-card-row {
+  padding-top: 15px; }
+
+.custom-card {
+  text-align: center; }
+
+.transparent-navbar, .transparent-ul {
+  opacity: .9; }
+
+.carousel-control.left, .carousel-control.right {
+  left: 0;
+  z-index: 1; }

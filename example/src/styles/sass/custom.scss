@@ -1,0 +1,107 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif!important;
+}
+b{
+  font-size: 70px
+}
+body {
+  overflow-x: hidden;
+}
+
+.left-banner{
+  width:25%
+}
+
+
+/* Start Main Menu */
+header.landing-page-header {
+  /*background-image: url("../img/bg-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  padding: 235px 0;
+  opacity: 0.7;
+  color: white;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  text-align: center;
+  /* font-size: 15px; */
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+/*     background-image: url("../images/123.jpg"); */
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: transparent;
+}
+
+/* .parallax-window {
+    min-height: 400px;
+    background: transparent;
+} */
+#navbar{
+  /* position: fixed; */
+  /* width: 100%; */
+}
+
+.custom-card-row{
+  padding-top: 15px
+}
+
+.custom-card{
+  text-align: center;
+
+}
+
+.transparent-navbar, .transparent-ul{
+  opacity: 0.9;
+}
+
+.carousel-control.left, .carousel-control.right {
+  left: 0;
+  z-index: 1;
+}
+
+/*
+.add-on .input-group-btn > .btn {
+  border-left-width:0;left:-2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.add-on .form-control:focus {
+ box-shadow:none;
+ -webkit-box-shadow:none;
+ border-color:#cccccc;
+}
+.form-control{width:20%}
+.navbar-nav > li > a {
+  border-right: 1px solid #ddd;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.navbar-nav:last-child{ border-right:0}
+*/
