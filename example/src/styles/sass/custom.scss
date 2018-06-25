@@ -86,6 +86,106 @@ body, html {
   z-index: 1;
 }
 
+.navigation-color{
+  background-color: #A0420D;
+}
+
+.bg1{
+  height: 100%;
+  padding-top: 50px;
+  /*background-image: url('/images/bg-89.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  background-color: #140A0D;
+  color: #C5C3C6;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /*background-image: url("/images/footer.jpg");*/
+  background-color: #A0420D;
+}
+
+
+section {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  position: relative;
+  word-wrap: break-word;
+  background-color: #eeeeee;
+  display: block; 
+  }
+
+.container-fluid {
+  position: relative;
+  word-wrap: break-word; }
+
+.footer .media-container-row {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.media-container-row {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: start;
+  -ms-flex-align: start;
+  align-items: start; }
+  .media-container-row .media-size-item {
+    width: 400px; }
+
+
+.footer .media-container-row .foot-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.footer .media-container-row .foot-menu li {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.display {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+}
+
+@media (max-width: 767px) {
+  .footer .media-container-row .social-list {
+    justify-content: center;
+    -webkit-justify-content: center;
+  }
+}
+
+.footer .media-container-row .social-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+}
 /*
 .add-on .input-group-btn > .btn {
   border-left-width:0;left:-2px;

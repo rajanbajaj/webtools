@@ -1,3 +1,10 @@
+.bg, .bg1, body, html {
+  height: 100%; }
+
+.container-fluid, section {
+  position: relative;
+  word-wrap: break-word; }
+
 .h1, .h2, .h3, .h4, .h5, .h6, body, h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", Helvetica, Arial, sans-serif !important; }
 
@@ -19,11 +26,9 @@ header.landing-page-header {
   text-align: center; }
 
 body, html {
-  height: 100%;
   margin: 0; }
 
 .bg {
-  height: 100%;
   background: 0 0; }
 
 .custom-card-row {
@@ -38,3 +43,80 @@ body, html {
 .carousel-control.left, .carousel-control.right {
   left: 0;
   z-index: 1; }
+
+.navigation-color {
+  background-color: #A0420D; }
+
+.bg1 {
+  padding-top: 50px;
+  background-color: #140A0D;
+  color: #C5C3C6; }
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #A0420D; }
+
+section {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #eee;
+  display: block; }
+
+.footer .media-container-row {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.media-container-row {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: start;
+  -ms-flex-align: start;
+  align-items: start; }
+
+.media-container-row .media-size-item {
+  width: 400px; }
+
+.footer .media-container-row .foot-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 0; }
+
+.footer .media-container-row .foot-menu li {
+  padding: 0 1rem 1rem; }
+
+.display {
+  font-family: Rubik,sans-serif;
+  font-size: 1rem; }
+
+@media (max-width: 767px) {
+  .footer .media-container-row .social-list {
+    justify-content: center;
+    -webkit-justify-content: center; } }
+
+.footer .media-container-row .social-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end; }

@@ -6,17 +6,18 @@
     <title>Title</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/bootstrap.min.css">
-
+<!--     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik" rel="stylesheet"> -->
     <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="scripts/script.js"></script>
     
   </head>
-  <body>
+  <body style="background-color: #140A0D;">
 
     
     <div class="bg">
-      <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #563d7c;">
+      <!-- !fixed-top -->
+      <nav class="navbar navbar-expand-lg navbar-dark  navigation-color">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -28,7 +29,7 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Anime list</a>
+            <a class="nav-link" id="anime-list-link" href="#bg1">Anime list</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Popular</a>
@@ -39,7 +40,7 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
     </nav>
@@ -52,10 +53,62 @@
             </div>
           </div>
           </header>
-        </div><!--.col-sm-6-->
-      </div><!--.row-->
+  </div>
+    <div class="bg1" id="bg1">Hello</div>
+    
 
-    </div>
+    <section class="footer" id="footer">
+        <div class="container">
+            <div class="media-container-row align-center">
+                <div class="row">
+                    <ul class="foot-menu">
+                        
+                        
+                        
+                        
+                        
+                    <li class="foot-menu-item display">
+                            <a class="text-white" href="#" target="_blank">About us</a>
+                        </li><li class="foot-menu-item display">
+                            <a class="text-white" href="#" target="_blank">Services</a>
+                        </li><li class="foot-menu-item display">
+                            <a class="text-white" href="#" target="_blank">Get In Touch</a>
+                        </li><li class="foot-menu-item display">
+                            <a class="text-white" href="#" target="_blank">Careers</a>
+                        </li><li class="foot-menu-item display">
+                            <a class="text-white" href="#" target="_blank">Work</a>
+                        </li></ul>
+                </div>
+                <div class="row">
+                    <div class="social-list">
+
+                        <div class="">
+                            <a href="https://www.facebook.com/r.bajaj.97" target="_blank">
+                                <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social" media-simple="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg></span>
+                            </a>
+                        </div><div class="">
+                            <a href="https://www.youtube.com/c/mobirise" target="_blank">
+                                <span media-simple="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10.918 13.933h.706v3.795h-.706v-.419c-.13.154-.266.272-.405.353-.381.218-.902.213-.902-.557v-3.172h.705v2.909c0 .153.037.256.188.256.138 0 .329-.176.415-.284v-2.881zm.642-4.181c.2 0 .311-.16.311-.377v-1.854c0-.223-.098-.38-.324-.38-.208 0-.309.161-.309.38v1.854c-.001.21.117.377.322.377zm-1.941 2.831h-2.439v.747h.823v4.398h.795v-4.398h.821v-.747zm4.721 2.253v2.105c0 .47-.176.834-.645.834-.259 0-.474-.094-.671-.34v.292h-.712v-5.145h.712v1.656c.16-.194.375-.354.628-.354.517.001.688.437.688.952zm-.727.043c0-.128-.024-.225-.075-.292-.086-.113-.244-.125-.367-.062l-.146.116v2.365l.167.134c.115.058.283.062.361-.039.04-.054.061-.141.061-.262v-1.96zm10.387-2.879c0 6.627-5.373 12-12 12s-12-5.373-12-12 5.373-12 12-12 12 5.373 12 12zm-10.746-2.251c0 .394.12.712.519.712.224 0 .534-.117.855-.498v.44h.741v-3.986h-.741v3.025c-.09.113-.291.299-.436.299-.159 0-.197-.108-.197-.269v-3.055h-.741v3.332zm-2.779-2.294v1.954c0 .703.367 1.068 1.085 1.068.597 0 1.065-.399 1.065-1.068v-1.954c0-.624-.465-1.071-1.065-1.071-.652 0-1.085.432-1.085 1.071zm-2.761-2.455l.993 3.211v2.191h.835v-2.191l.971-3.211h-.848l-.535 2.16-.575-2.16h-.841zm10.119 10.208c-.013-2.605-.204-3.602-1.848-3.714-1.518-.104-6.455-.103-7.971 0-1.642.112-1.835 1.104-1.848 3.714.013 2.606.204 3.602 1.848 3.715 1.516.103 6.453.103 7.971 0 1.643-.113 1.835-1.104 1.848-3.715zm-.885-.255v.966h-1.35v.716c0 .285.024.531.308.531.298 0 .315-.2.315-.531v-.264h.727v.285c0 .731-.313 1.174-1.057 1.174-.676 0-1.019-.491-1.019-1.174v-1.704c0-.659.435-1.116 1.071-1.116.678.001 1.005.431 1.005 1.117zm-.726-.007c0-.256-.054-.445-.309-.445-.261 0-.314.184-.314.445v.385h.623v-.385z"/></svg></span>
+                            </a>
+                        </div><div class="">
+                            <a href="https://instagram.com/rbajaj.97" target="_blank">
+                                <span media-simple="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17.25 7.288v1.269c0 .297-.241.539-.538.539h-1.269c-.299 0-.538-.242-.538-.539v-1.269c0-.297.239-.538.538-.538h1.269c.297 0 .538.241.538.538zm-5.25 7.403c1.486 0 2.693-1.205 2.693-2.692s-1.207-2.69-2.693-2.69c-1.487 0-2.691 1.204-2.691 2.691s1.204 2.691 2.691 2.691zm4.261-3.291c.028.196.046.396.046.599 0 2.38-1.928 4.308-4.307 4.308s-4.307-1.928-4.307-4.307c0-.204.018-.403.046-.599.027-.194.066-.383.118-.567h-1.107v5.879c0 .297.241.538.538.538h9.424c.297 0 .538-.241.538-.538v-5.879h-1.107c.05.184.09.373.118.566zm7.739.6c0 6.627-5.373 12-12 12s-12-5.373-12-12 5.373-12 12-12 12 5.373 12 12zm-5-5.385c0-.892-.723-1.615-1.615-1.615h-10.77c-.892 0-1.615.723-1.615 1.615v10.769c0 .893.723 1.616 1.615 1.616h10.77c.892 0 1.615-.723 1.615-1.616v-10.769z"/></svg></span>
+                            </a>
+                          </div><div class="">
+                            <a href="https://www.linkedin.com/in/rajan-bajaj-b7b3b2133/" target="_blank">
+                                <span media-simple="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg></span>
+                            </a>
+                          </div>
+                        </div>
+                </div>
+                <div class="row row-copirayt">
+                    <p class="display text-black">
+                        © Copyright 2018 <a href="#" class="text-white">Anime Reviews and News</a> - All Rights Reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
     
     <script type="text/javascript" src="scripts/parallax.min.js"></script>
     <script type="text/javascript">
