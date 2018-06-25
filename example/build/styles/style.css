@@ -1,6 +1,3 @@
-.bg, .bg1, body, html {
-  height: 100%; }
-
 .container-fluid, section {
   position: relative;
   word-wrap: break-word; }
@@ -26,10 +23,15 @@ header.landing-page-header {
   text-align: center; }
 
 body, html {
+  height: 100%;
   margin: 0; }
 
 .bg {
+  height: 100%;
   background: 0 0; }
+
+.footer, .navigation-color {
+  background-color: #A0420D; }
 
 .custom-card-row {
   padding-top: 15px; }
@@ -44,18 +46,15 @@ body, html {
   left: 0;
   z-index: 1; }
 
-.navigation-color {
-  background-color: #A0420D; }
-
-.bg1 {
-  padding-top: 50px;
-  background-color: #140A0D;
-  color: #C5C3C6; }
+.landing-page-content {
+  height: 100%;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  color: #140A0D; }
 
 .footer {
   padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #A0420D; }
+  padding-bottom: 30px; }
 
 section {
   background-position: 50% 50%;
