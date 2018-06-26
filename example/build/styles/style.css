@@ -2,6 +2,9 @@
   position: relative;
   word-wrap: break-word; }
 
+.bg, .overlay, body, html {
+  height: 100%; }
+
 .h1, .h2, .h3, .h4, .h5, .h6, body, h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", Helvetica, Arial, sans-serif !important; }
 
@@ -23,11 +26,9 @@ header.landing-page-header {
   text-align: center; }
 
 body, html {
-  height: 100%;
   margin: 0; }
 
 .bg {
-  height: 100%;
   background: 0 0; }
 
 .footer, .navigation-color {
@@ -119,3 +120,20 @@ section {
   flex-wrap: wrap;
   justify-content: flex-end;
   -webkit-justify-content: flex-end; }
+
+.top-margin {
+  margin-top: 18px; }
+
+.carousel-indicators > li {
+  border-radius: 50%; }
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer; }
