@@ -16,9 +16,12 @@ h6,
 b{
   font-size: 70px
 }
-body {
+body {/*#C5C3C6 #16151d #232225 e9ebee*/
   overflow-x: hidden;
+  background: #e9ebee;
+  color:#47464a;
 }
+
 
 .left-banner{
   width:25%
@@ -87,7 +90,7 @@ body, html {
 }
 
 .navigation-color{
-  background-color: #A0420D;
+  background-color: #694ba1;
 }
 
 .landing-page-content{
@@ -105,7 +108,7 @@ body, html {
   padding-top: 30px;
   padding-bottom: 30px;
   /*background-image: url("/images/footer.jpg");*/
-  background-color: #A0420D;
+  background-color: #694ba1;
 }
 
 
@@ -206,6 +209,86 @@ section {
     background-color: rgba(0,0,0,0.5);
     z-index: 2;
     cursor: pointer;
+}
+
+.carousel-item{
+  height: 260px !important;
+}
+
+.carousel-caption > h5, p{
+  margin-bottom: 0;
+  text-align: left !important;
+
+}
+.carousel-caption > p{
+  font-size: .8rem;
+  overflow: hidden;
+  max-height: 60px;
+}
+
+.sidebar{
+  width: 100% ;
+  margin-top: 18px;
+  height: 300px;
+  /*border:solid;*/
+  float: right;
+}
+
+.wid{
+  background: #f7f7f9;  /*#1d1b26 #f7f7f9 */
+  color: black;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 3px rbga(0, 0, 0,.1);
+}
+
+.wid-title{
+  text-indent: 8px;
+  background-color: #694ba1;
+  border-bottom-color: #312f40;
+  border-bottom: 1px solid #eee;
+  paddind: 0 10px
+}
+
+.wid-body{
+  padding: 10px;
+  font-size: .8rem;
+}
+.title{
+  color: white;
+
+  font-size: 1.1em;
+  font-family: "Nunito Sans",sans-serif;
+  display: inline;
+  line-height: 35px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.text-black{
+  color: #212529 !important;
+}
+
+.text-white{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.anime-genre >li{
+  float: left;
+  width: 33.33%;
+  list-style-type: none;
+}
+
+li > a {
+  color: black;
+}
+
+.dropdown-item{
+  color: rgba(255,255,255,.5) !important;
+}
+.dropdown-item:hover{
+  color: white !important;
+  background-color: inherit;
 }
 /*
 .add-on .input-group-btn > .btn {
