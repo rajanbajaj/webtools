@@ -140,6 +140,9 @@ section {
   z-index: 2;
   cursor: pointer; }
 
+.inner, .item, .poster {
+  position: relative; }
+
 .carousel-item {
   height: 260px !important; }
 
@@ -154,7 +157,6 @@ section {
 
 .sidebar {
   width: 100%;
-  height: 300px;
   float: right; }
 
 .wid {
@@ -204,3 +206,46 @@ li > a {
 .dropdown-item:hover {
   color: #fff !important;
   background-color: inherit; }
+
+.inner {
+  margin: 5px;
+  box-sizing: border-box; }
+
+.poster {
+  display: block;
+  height: 200px !important; }
+
+.page, .poster > img {
+  height: 100%;
+  width: 100%; }
+
+.poster > img {
+  verticle-align: middle; }
+
+.page {
+  background: #f7f7f9;
+  color: #000; }
+
+.item {
+  width: 25%;
+  float: left;
+  font-size: 13px; }
+
+.poster-text {
+  text-align: center;
+  margin-top: 2px;
+  padding: 5px;
+  max-height: 24px;
+  overflow: hidden;
+  background-color: #312f40;
+  font-weight: bolder;
+  color: #fff;
+  opacity: .8; }
+
+a:hover {
+  text-decoration: none; }
+
+.poster-text:hover {
+  opacity: 1;
+  color: #fff;
+  transition: .3s; }

@@ -3,18 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title</title>
+    <title>Anime World</title>
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/style.css">
 <!--     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik" rel="stylesheet"> -->
-    <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
-    <script type="text/javascript" src="scripts/script.js"></script>
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/script.js"></script>
     
   </head>
   <body><!-- #C5C3C6 #16151d #232225-->
-
-    
     <div class="bg">
       <!-- !fixed-top -->
       <nav class="navbar navbar-expand-lg navbar-dark  navigation-color">
@@ -25,11 +23,11 @@
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Genre <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#bg1">Genre</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="anime-list-link" href="#bg1">Anime list</a>
+            <a class="nav-link" href="#bg1">Anime list</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Popular</a>
@@ -38,7 +36,7 @@
             <a class="nav-link" href="#">New Release</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"" href="#">Types</a>
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Types</a>
 
             <div class="navigation-color dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Tv Series</a>
@@ -55,7 +53,7 @@
           <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
-    </nav>
+      </nav>
           <header class="landing-page-header">
           <h1 class="h1"><b>Anime World</b></h1>
           <h2>Anime</h2>
@@ -65,207 +63,283 @@
             </div>
           </div>
           </header>
-  </div>
-  <div class="container">
-    <div class="row">
+    </div>
+    
+    <div class="container">
+      <div class="row">
 
-      <div class="col-md-8 top-margin">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="overlay"></div>
-                    <img class="d-block w-100" src="images/slider/1.jpg" alt="First slide">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Food Wars! The Third Plate: Totsuki Train Arc</h5>
-                        <p>The second cour of Shokugeki no Souma season 3.</p>
-                      </div>
-                  </div>
+        <div class="col-md-8 top-margin">
+          <div id="carouselExampleIndicators" class="carousel slide wid" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="overlay"></div>
+                      <img class="d-block w-100" src="images/slider/1.jpg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Food Wars! The Third Plate: Totsuki Train Arc</h5>
+                          <p>The second cour of Shokugeki no Souma season 3.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="overlay"></div>
+                      <img class="d-block w-100" src="images/slider/2.jpg" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Nanatsu no Taizai: Imashime no Fukkatsu</h5>
+                          <p>The new season in the Nanatsu no Taizai series.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="overlay"></div>
+                      <img class="d-block w-100" src="images/slider/3.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>My hero academia 3</h5>
+                          <p>Boku no Hero Academia 3rd Season; 僕のヒーローアカデミア 3rdシーズン</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="overlay"></div>
+                      <img class="d-block w-100" src="images/slider/4.jpg" alt="Fourth slide">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>One Piece</h5>
+                          <p>Gol D. Roger was known as the "Pirate King," the strongest and most infamous being to have sailed the Grand Line. The capture and death of Roger by the World Government brought a change throughout the world. His last words before his death revealed the...</p>
+                        </div>
+                    </div>
                   <div class="carousel-item">
                     <div class="overlay"></div>
-                    <img class="d-block w-100" src="images/slider/2.jpg" alt="Second slide">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Nanatsu no Taizai: Imashime no Fukkatsu</h5>
-                        <p>The new season in the Nanatsu no Taizai series.</p>
-                      </div>
-                  </div>
+                      <img class="d-block w-100" src="images/slider/5.jpg" alt="Fifth slide">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Boruto: Naruto Next Generations</h5>
+                          <p>Boruto: Naruto Next Generations, also known as Boruto, is a Japanese manga series...</p>
+                        </div>
+                    </div>
                   <div class="carousel-item">
                     <div class="overlay"></div>
-                    <img class="d-block w-100" src="images/slider/3.jpg" alt="Third slide">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>My hero academia 3</h5>
-                        <p>Boku no Hero Academia 3rd Season; 僕のヒーローアカデミア 3rdシーズン</p>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
+                      <img class="d-block w-100" src="images/slider/6.jpg" alt="Sixth slide">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>My Hero Academia 3 (Dub)</h5>
+                          <p>Third season of Boku no Hero Academia.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
                     <div class="overlay"></div>
-                    <img class="d-block w-100" src="images/slider/4.jpg" alt="Fourth slide">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>One Piece</h5>
-                        <p>Gol D. Roger was known as the "Pirate King," the strongest and most infamous being to have sailed the Grand Line. The capture and death of Roger by the World Government brought a change throughout the world. His last words before his death revealed the...</p>
-                      </div>
-                  </div>
-                <div class="carousel-item">
-                  <div class="overlay"></div>
-                    <img class="d-block w-100" src="images/slider/5.jpg" alt="Fifth slide">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Boruto: Naruto Next Generations</h5>
-                        <p>Boruto: Naruto Next Generations, also known as Boruto, is a Japanese manga series...</p>
-                      </div>
-                  </div>
-                <div class="carousel-item">
-                  <div class="overlay"></div>
-                    <img class="d-block w-100" src="images/slider/6.jpg" alt="Sixth slide">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>My Hero Academia 3 (Dub)</h5>
-                        <p>Third season of Boku no Hero Academia.</p>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                  <div class="overlay"></div>
-                    <img class="d-block w-100" src="images/slider/7.jpg" alt="Seventh slide">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Black Clover</h5>
-                        <p>Asta and Yuno were abandoned at the same church on the same day. Raised together as children, they came to know of the "Wizard King"—a title given to the strongest mage in the kingdom—and promised that they would compete against each other for the position...</p>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                  <div class="overlay"></div>
-                    <img class="d-block w-100" src="images/slider/8.jpg" alt="Eighth slide">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>DARLING in the FRANXX</h5>
-                        <p>The story is set in the distant future. The land is ruined, and humanity establishes the mobile fort city Plantation. Pilots produced inside Plantation live in Mistilteinn, also know as the "birdcage." Children live there knowing nothing of the outside world or the freedom of...</p>
-                      </div>
-                  </div>
-                   <div class="carousel-item">
-                  <div class="overlay"></div>
-                    <img class="d-block w-100" src="images/slider/9.jpg" alt="Ninth slide">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Naruto: Shippuden</h5>
-                        <p>It has been two and a half years since Naruto Uzumaki left Konohagakure, the Hidden Leaf Village, for intense training following events which fueled his desire to be stronger. Now Akatsuki, the mysterious organization of elite rogue ninja, is closing in on their grand plan...</p>
-                      </div>
-                  </div>
+                      <img class="d-block w-100" src="images/slider/7.jpg" alt="Seventh slide">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Black Clover</h5>
+                          <p>Asta and Yuno were abandoned at the same church on the same day. Raised together as children, they came to know of the "Wizard King"—a title given to the strongest mage in the kingdom—and promised that they would compete against each other for the position...</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                    <div class="overlay"></div>
+                      <img class="d-block w-100" src="images/slider/8.jpg" alt="Eighth slide">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>DARLING in the FRANXX</h5>
+                          <p>The story is set in the distant future. The land is ruined, and humanity establishes the mobile fort city Plantation. Pilots produced inside Plantation live in Mistilteinn, also know as the "birdcage." Children live there knowing nothing of the outside world or the freedom of...</p>
+                        </div>
+                    </div>
+                     <div class="carousel-item">
+                    <div class="overlay"></div>
+                      <img class="d-block w-100" src="images/slider/9.jpg" alt="Ninth slide">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Naruto: Shippuden</h5>
+                          <p>It has been two and a half years since Naruto Uzumaki left Konohagakure, the Hidden Leaf Village, for intense training following events which fueled his desire to be stronger. Now Akatsuki, the mysterious organization of elite rogue ninja, is closing in on their grand plan...</p>
+                        </div>
+                    </div>
 
+                  </div>
+                 
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+          </div>
+          <div class="row">
+            <div class="page">
+              <div class="item">
+                <div class="inner">         
+                    <a href="#" class="poster">
+                      <div class="overlay" hidden="true"></div>
+                      <img  src="/images/tokyo_ghoul.jpg" alt="#">
+                    </a>
+                    <a href="#">
+                      <div class="poster-text">
+                      Tokyo Ghoul
+                      </div>
+                    </a>
+                    
                 </div>
-               
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
               </div>
-        
+              <div class="item">
+                <div class="inner">         
+                    <a href="#" class="poster">
+                      <div class="overlay" hidden="true"></div>
+                      <img  src="/images/yugioh.png" alt="#">
+                    </a>
+                    <a href="#">
+                      <div class="poster-text">
+                      Yu-Gi-Oh! Duel Monsters
+                    </div>
+                    </a>
+                </div>  
+              </div>
+              <div class="item">
+                <div class="inner">         
+                    <a href="#" class="poster">
+                      <div class="overlay" hidden="true"></div>
+                      <img  src="/images/tokyo_ghoul.jpg" alt="#">
+                    </a>
+                    <a href="#">
+                      <div class="poster-text">
+                      Tokyo Ghoul
+                      </div>
+                    </a>
+                    
+                </div>
+              </div>
+              <div class="item">
+                <div class="inner">         
+                    <a href="#" class="poster">
+                      <div class="overlay" hidden="true"></div>
+                      <img  src="/images/yugioh.png" alt="#">
+                    </a>
+                    <a href="#">
+                      <div class="poster-text">
+                      Yu-Gi-Oh! Duel Monsters
+                    </div>
+                    </a>
+                </div>  
+              </div>
+              <div class="item">
+                <div class="inner">         
+                    <a href="#" class="poster">
+                      <div class="overlay" hidden="true"></div>
+                      <img  src="/images/tokyo_ghoul.jpg" alt="#">
+                    </a>
+                    <a href="#">
+                      <div class="poster-text">
+                      Tokyo Ghoul
+                      </div>
+                    </a>
+                    
+                </div>
+              </div>
+              <div class="item">
+                <div class="inner">         
+                    <a href="#" class="poster">
+                      <div class="overlay" hidden="true"></div>
+                      <img  src="/images/yugioh.png" alt="#">
+                    </a>
+                    <a href="#">
+                      <div class="poster-text">
+                      Yu-Gi-Oh! Duel Monsters
+                    </div>
+                    </a>
+                </div>  
+              </div>
+              <div class="item">
+                <div class="inner">         
+                    <a href="#" class="poster">
+                      <div class="overlay" hidden="true"></div>
+                      <img  src="/images/tokyo_ghoul.jpg" alt="#">
+                    </a>
+                    <a href="#">
+                      <div class="poster-text">
+                      Tokyo Ghoul
+                      </div>
+                    </a>
+                    
+                </div>
+              </div>
+              <div class="item">
+                <div class="inner">         
+                    <a href="#" class="poster">
+                      <div class="overlay" hidden="true"></div>
+                      <img  src="/images/yugioh.png" alt="#">
+                    </a>
+                    <a href="#">
+                      <div class="poster-text">
+                      Yu-Gi-Oh! Duel Monsters
+                    </div>
+                    </a>
+                </div>  
+              </div>
+            </div>
+          </div>
         </div><!-- slider .col-7 -->
         <div class="col-md-4">
-          <div class="sidebar">
-            
-
-            <div class="wid">
-              <div class="wid-title">
-                <span class="title">Genres</span>
-              </div>
-                <div class="wid-body">
-                  <div class="row">
-                    <ul class="anime-genre">
-                      <li><a href="">One</a></li>
-                      <li><a href="">Two</a></li>
-                      <li><a href="">Three</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                      <li><a href="">-</a></li>
-                    </ul>
-                  </div>
-                  </div><!-- .row -->
-                 </div><!-- wid-body --> 
+            <div class="sidebar">
+              <div class="wid">
+                <div class="wid-title">
+                  <span class="title">Genres</span>
+                </div>
+                  <div class="wid-body">
+                    <div class="row">
+                      <ul class="anime-genre">
+                        <li><a href="">One</a></li>
+                        <li><a href="">Two</a></li>
+                        <li><a href="">Three</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                        <li><a href="">-</a></li>
+                      </ul>
+                    </div>
+                    </div><!-- .row -->
+                   </div><!-- wid-body --> 
             </div><!-- .wid -->
-        
-          </div>
         </div>
+      </div>
     </div>
-    <!-- <div class="row landing-page-content">
-      <div class="col-md-6">
-        <div id="bg1">
-          <h1>This is a heading!</h1>
-          <div class="row custom-card-row">
-                <div class="col-sm-6 custom-card">
-                  <div class="card">
-                    <img class="card-img-top" src="images/123.jpg" alt="Card image cap">
-                     <div class="card-body">
-                       <h5 class="card-title">Card title</h5>
-                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                       <a href="#" class="btn btn-primary">Go somewhere</a>
-                     </div>
-                  </div>
-                </div>
-                <div class="col-sm-6 custom-card">
-                  <div class="card">
-                    <img class="card-img-top" src="images/123.jpg" alt="Card image cap">
-                     <div class="card-body">
-                       <h5 class="card-title">Card title</h5>
-                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                       <a href="#" class="btn btn-primary">Go somewhere</a>
-                     </div>
-                  </div>
-                </div>
-            </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <h1>hello</h1>
-      </div>
-    </div> -->
-  </div>  
 
-    <section class="footer" id="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="media-container-row align-center">
                 <div class="row">
@@ -287,19 +361,19 @@
 
                         <div class="text-white">
                             <a href="https://www.facebook.com/r.bajaj.97" target="_blank">
-                                <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social" media-simple="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg></span>
+                                <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg></span>
                             </a>
                         </div><div class="text-white">
                             <a href="https://www.youtube.com/c/mobirise" target="_blank">
-                                <span media-simple="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10.918 13.933h.706v3.795h-.706v-.419c-.13.154-.266.272-.405.353-.381.218-.902.213-.902-.557v-3.172h.705v2.909c0 .153.037.256.188.256.138 0 .329-.176.415-.284v-2.881zm.642-4.181c.2 0 .311-.16.311-.377v-1.854c0-.223-.098-.38-.324-.38-.208 0-.309.161-.309.38v1.854c-.001.21.117.377.322.377zm-1.941 2.831h-2.439v.747h.823v4.398h.795v-4.398h.821v-.747zm4.721 2.253v2.105c0 .47-.176.834-.645.834-.259 0-.474-.094-.671-.34v.292h-.712v-5.145h.712v1.656c.16-.194.375-.354.628-.354.517.001.688.437.688.952zm-.727.043c0-.128-.024-.225-.075-.292-.086-.113-.244-.125-.367-.062l-.146.116v2.365l.167.134c.115.058.283.062.361-.039.04-.054.061-.141.061-.262v-1.96zm10.387-2.879c0 6.627-5.373 12-12 12s-12-5.373-12-12 5.373-12 12-12 12 5.373 12 12zm-10.746-2.251c0 .394.12.712.519.712.224 0 .534-.117.855-.498v.44h.741v-3.986h-.741v3.025c-.09.113-.291.299-.436.299-.159 0-.197-.108-.197-.269v-3.055h-.741v3.332zm-2.779-2.294v1.954c0 .703.367 1.068 1.085 1.068.597 0 1.065-.399 1.065-1.068v-1.954c0-.624-.465-1.071-1.065-1.071-.652 0-1.085.432-1.085 1.071zm-2.761-2.455l.993 3.211v2.191h.835v-2.191l.971-3.211h-.848l-.535 2.16-.575-2.16h-.841zm10.119 10.208c-.013-2.605-.204-3.602-1.848-3.714-1.518-.104-6.455-.103-7.971 0-1.642.112-1.835 1.104-1.848 3.714.013 2.606.204 3.602 1.848 3.715 1.516.103 6.453.103 7.971 0 1.643-.113 1.835-1.104 1.848-3.715zm-.885-.255v.966h-1.35v.716c0 .285.024.531.308.531.298 0 .315-.2.315-.531v-.264h.727v.285c0 .731-.313 1.174-1.057 1.174-.676 0-1.019-.491-1.019-1.174v-1.704c0-.659.435-1.116 1.071-1.116.678.001 1.005.431 1.005 1.117zm-.726-.007c0-.256-.054-.445-.309-.445-.261 0-.314.184-.314.445v.385h.623v-.385z"/></svg></span>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10.918 13.933h.706v3.795h-.706v-.419c-.13.154-.266.272-.405.353-.381.218-.902.213-.902-.557v-3.172h.705v2.909c0 .153.037.256.188.256.138 0 .329-.176.415-.284v-2.881zm.642-4.181c.2 0 .311-.16.311-.377v-1.854c0-.223-.098-.38-.324-.38-.208 0-.309.161-.309.38v1.854c-.001.21.117.377.322.377zm-1.941 2.831h-2.439v.747h.823v4.398h.795v-4.398h.821v-.747zm4.721 2.253v2.105c0 .47-.176.834-.645.834-.259 0-.474-.094-.671-.34v.292h-.712v-5.145h.712v1.656c.16-.194.375-.354.628-.354.517.001.688.437.688.952zm-.727.043c0-.128-.024-.225-.075-.292-.086-.113-.244-.125-.367-.062l-.146.116v2.365l.167.134c.115.058.283.062.361-.039.04-.054.061-.141.061-.262v-1.96zm10.387-2.879c0 6.627-5.373 12-12 12s-12-5.373-12-12 5.373-12 12-12 12 5.373 12 12zm-10.746-2.251c0 .394.12.712.519.712.224 0 .534-.117.855-.498v.44h.741v-3.986h-.741v3.025c-.09.113-.291.299-.436.299-.159 0-.197-.108-.197-.269v-3.055h-.741v3.332zm-2.779-2.294v1.954c0 .703.367 1.068 1.085 1.068.597 0 1.065-.399 1.065-1.068v-1.954c0-.624-.465-1.071-1.065-1.071-.652 0-1.085.432-1.085 1.071zm-2.761-2.455l.993 3.211v2.191h.835v-2.191l.971-3.211h-.848l-.535 2.16-.575-2.16h-.841zm10.119 10.208c-.013-2.605-.204-3.602-1.848-3.714-1.518-.104-6.455-.103-7.971 0-1.642.112-1.835 1.104-1.848 3.714.013 2.606.204 3.602 1.848 3.715 1.516.103 6.453.103 7.971 0 1.643-.113 1.835-1.104 1.848-3.715zm-.885-.255v.966h-1.35v.716c0 .285.024.531.308.531.298 0 .315-.2.315-.531v-.264h.727v.285c0 .731-.313 1.174-1.057 1.174-.676 0-1.019-.491-1.019-1.174v-1.704c0-.659.435-1.116 1.071-1.116.678.001 1.005.431 1.005 1.117zm-.726-.007c0-.256-.054-.445-.309-.445-.261 0-.314.184-.314.445v.385h.623v-.385z"/></svg></span>
                             </a>
                         </div><div class="text-white">
                             <a href="https://instagram.com/rbajaj.97" target="_blank">
-                                <span media-simple="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17.25 7.288v1.269c0 .297-.241.539-.538.539h-1.269c-.299 0-.538-.242-.538-.539v-1.269c0-.297.239-.538.538-.538h1.269c.297 0 .538.241.538.538zm-5.25 7.403c1.486 0 2.693-1.205 2.693-2.692s-1.207-2.69-2.693-2.69c-1.487 0-2.691 1.204-2.691 2.691s1.204 2.691 2.691 2.691zm4.261-3.291c.028.196.046.396.046.599 0 2.38-1.928 4.308-4.307 4.308s-4.307-1.928-4.307-4.307c0-.204.018-.403.046-.599.027-.194.066-.383.118-.567h-1.107v5.879c0 .297.241.538.538.538h9.424c.297 0 .538-.241.538-.538v-5.879h-1.107c.05.184.09.373.118.566zm7.739.6c0 6.627-5.373 12-12 12s-12-5.373-12-12 5.373-12 12-12 12 5.373 12 12zm-5-5.385c0-.892-.723-1.615-1.615-1.615h-10.77c-.892 0-1.615.723-1.615 1.615v10.769c0 .893.723 1.616 1.615 1.616h10.77c.892 0 1.615-.723 1.615-1.616v-10.769z"/></svg></span>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17.25 7.288v1.269c0 .297-.241.539-.538.539h-1.269c-.299 0-.538-.242-.538-.539v-1.269c0-.297.239-.538.538-.538h1.269c.297 0 .538.241.538.538zm-5.25 7.403c1.486 0 2.693-1.205 2.693-2.692s-1.207-2.69-2.693-2.69c-1.487 0-2.691 1.204-2.691 2.691s1.204 2.691 2.691 2.691zm4.261-3.291c.028.196.046.396.046.599 0 2.38-1.928 4.308-4.307 4.308s-4.307-1.928-4.307-4.307c0-.204.018-.403.046-.599.027-.194.066-.383.118-.567h-1.107v5.879c0 .297.241.538.538.538h9.424c.297 0 .538-.241.538-.538v-5.879h-1.107c.05.184.09.373.118.566zm7.739.6c0 6.627-5.373 12-12 12s-12-5.373-12-12 5.373-12 12-12 12 5.373 12 12zm-5-5.385c0-.892-.723-1.615-1.615-1.615h-10.77c-.892 0-1.615.723-1.615 1.615v10.769c0 .893.723 1.616 1.615 1.616h10.77c.892 0 1.615-.723 1.615-1.616v-10.769z"/></svg></span>
                             </a>
                           </div><div class="text-white">
                             <a href="https://www.linkedin.com/in/rajan-bajaj-b7b3b2133/" target="_blank">
-                                <span media-simple="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg></span>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg></span>
                             </a>
                           </div>
                         </div>
@@ -311,10 +385,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </footer>
     
-    <script type="text/javascript" src="scripts/parallax.min.js"></script>
-    <script type="text/javascript">
+    <script src="scripts/parallax.min.js"></script>
+    <script>
       $('.bg').parallax({imageSrc: 'images/bg-89.jpg'});
       $('.carousel').carousel({
           interval: 5000,
